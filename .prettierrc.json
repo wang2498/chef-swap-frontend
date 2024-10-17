@@ -1,0 +1,26 @@
+{
+  "semi": false,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "importOrder": [
+    "^(react|next?/?([a-zA-Z/]*))$",
+    "",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^@/components/(.*)$",
+    "",
+    "^@/hooks/(.*)$",
+    "",
+    "^@/utils/(.*)$",
+    "",
+    "^@/(.*)$",
+    "",
+    "^[.]"
+  ],
+  "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"],
+  "plugins": [
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ]
+}
